@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import BarCodeScanner
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Checking BarCode Framework available or not
+        let barcodeController = BarCodeCoordinator.init(navigationController: self.navigationController!)
+        barcodeController.takeBarcode()
     }
 
 
