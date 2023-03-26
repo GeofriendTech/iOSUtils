@@ -15,6 +15,8 @@
 		CCE6E63E29C59EF900656AD3 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6E63D29C59EF900656AD3 /* BaseTest.swift */; };
 		CCE6E64229C5BF1600656AD3 /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6E64029C5BF1600656AD3 /* BarCodeViewController.swift */; };
 		CCE6E64329C5BF1600656AD3 /* BarCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE6E64129C5BF1600656AD3 /* BarCodeViewController.xib */; };
+		CCE6E64629D02E8900656AD3 /* QRCodeDelegateDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6E64529D02E8900656AD3 /* QRCodeDelegateDouble.swift */; };
+		CCE6E64829D0310300656AD3 /* QRScannerViewDelegateDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE6E64729D0310300656AD3 /* QRScannerViewDelegateDouble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		CCE6E63D29C59EF900656AD3 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 		CCE6E64029C5BF1600656AD3 /* BarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
 		CCE6E64129C5BF1600656AD3 /* BarCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarCodeViewController.xib; sourceTree = "<group>"; };
+		CCE6E64529D02E8900656AD3 /* QRCodeDelegateDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDelegateDouble.swift; sourceTree = "<group>"; };
+		CCE6E64729D0310300656AD3 /* QRScannerViewDelegateDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewDelegateDouble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		CCE6E62A29C5967100656AD3 /* BarCodeScannerTests */ = {
 			isa = PBXGroup;
 			children = (
+				CCE6E64429D02E6800656AD3 /* New Group */,
 				CCE6E62B29C5967100656AD3 /* BarCodeScannerTests.swift */,
 				CCE6E63D29C59EF900656AD3 /* BaseTest.swift */,
 			);
@@ -103,6 +108,15 @@
 				CCE6E64129C5BF1600656AD3 /* BarCodeViewController.xib */,
 			);
 			path = BarCodeController;
+			sourceTree = "<group>";
+		};
+		CCE6E64429D02E6800656AD3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6E64529D02E8900656AD3 /* QRCodeDelegateDouble.swift */,
+				CCE6E64729D0310300656AD3 /* QRScannerViewDelegateDouble.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE6E64629D02E8900656AD3 /* QRCodeDelegateDouble.swift in Sources */,
 				CCE6E63E29C59EF900656AD3 /* BaseTest.swift in Sources */,
+				CCE6E64829D0310300656AD3 /* QRScannerViewDelegateDouble.swift in Sources */,
 				CCE6E62C29C5967100656AD3 /* BarCodeScannerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
