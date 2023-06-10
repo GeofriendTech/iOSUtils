@@ -6,7 +6,7 @@ target 'app' do
   use_frameworks!
 
   # Pods for app
-	pod 'BarCodeScanner', :path => '/Users/shashanksingh/Documents/iOSUtils'
+	pod 'BarCodeScanner', :git => 'https://github.com/GeofriendTech/iOSUtils'
 
   target 'appTests' do
     inherit! :search_paths

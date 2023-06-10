@@ -6,6 +6,5 @@ target 'SocialShareDemo' do
   use_frameworks!
 
   # Pods for app
-	pod 'SocialShare', :path => '/Users/shashanksingh/Documents/iOSUtils'
-
+	pod 'SocialShare', :git => 'https://github.com/GeofriendTech/iOSUtils'
 end
