@@ -17,11 +17,11 @@ public protocol LocalAuthentication {
 public class AuthenticatorCoordinator {
     var delegate: LocalAuthentication?
     
-    init(delegate: LocalAuthentication) {
+    public init(delegate: LocalAuthentication) {
         self.delegate = delegate
     }
     
-    func loginWithBiometric() {
+    public func loginWithBiometric() {
         let context = LAContext()
         var error: NSError?
         
