@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Utils for LocalAuthentication using Biometrics"
   s.description  = <<-DESC
-  "Utils for BarCode scan"
+  "Utils for Biometric scan"
                    DESC
 
-  s.homepage     = "https://github.com/GeofriendTech/iOSUtils/tree/main/App"
+  s.homepage     = "https://github.com/GeofriendTech/iOSUtils/"
   s.license      = { :type => 'Copyright', :text => <<-LICENSE
                    Copyright 2023
                    Permission is granted to...
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/GeofriendTech/iOSUtils.git", :tag => "#{s.version}" }
 
   s.source_files  = "Authenticator/Authenticator/*.{swift,h}", "Authenticator/LocalAuthentication/**/*.{swift,h}"
-  s.resources     = "Authenticator/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  s.static_framework = true
+  # s.resources     = "Authenticator/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # s.static_framework = true
 end
