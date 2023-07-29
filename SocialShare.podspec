@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   "Utils for BarCode scan"
                    DESC
 
-  s.homepage     = "https://github.com/GeofriendTech/iOSUtils/tree/main/App"
+  s.homepage     = "https://github.com/GeofriendTech/iOSUtils/"
   s.license      = { :type => 'Copyright', :text => <<-LICENSE
                    Copyright 2023
                    Permission is granted to...
@@ -22,5 +22,4 @@ Pod::Spec.new do |s|
 
   s.source_files  = "SocialShare/SocialShare/*.{swift,h}", "SocialShare/SocialShare/**/*.{swift,h}"
   s.resources     = "SocialShare/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  s.static_framework = true
 end
