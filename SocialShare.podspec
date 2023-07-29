@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/GeofriendTech/iOSUtils.git", :tag => "#{s.version}" }
 
   s.source_files  = "SocialShare/SocialShare/*.{swift,h}", "SocialShare/SocialShare/**/*.{swift,h}"
-  s.resources     = "SocialShare/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # s.resources     = "SocialShare/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 end
